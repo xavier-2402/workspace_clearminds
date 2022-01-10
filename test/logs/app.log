@@ -1,0 +1,12 @@
+ 2021-09-22 21:00:43.702 [main] ERROR com.cmc.capacitacion.archivos.ManejarArchivos - No existe el archivo:
+java.io.FileNotFoundException: C:\Users\usuario\Downloads\EclipseNeon\eclipseNeon\WorkSpace\ejemplo.txt (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_151]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_151]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_151]
+	at java.io.FileReader.<init>(Unknown Source) ~[?:1.8.0_151]
+	at com.cmc.capacitacion.archivos.ManejarArchivos.leer(ManejarArchivos.java:27) [classes/:?]
+	at com.cmc.capacitacion.test.TestManejador.main(TestManejador.java:17) [classes/:?]
+ 2021-09-22 21:00:43.721 [main] ERROR com.cmc.capacitacion.test.TestManejador - No existe el archivo
+com.cmc.capacitacion.excepciones.ToxicaExcepcion: No existe el archivo: C:\Users\usuario\Downloads\EclipseNeon\eclipseNeon\WorkSpace\ejemplo.txt
+	at com.cmc.capacitacion.archivos.ManejarArchivos.leer(ManejarArchivos.java:32) ~[classes/:?]
+	at com.cmc.capacitacion.test.TestManejador.main(TestManejador.java:17) [classes/:?]

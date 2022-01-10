@@ -1,0 +1,6 @@
+01010101,Jessica,Alvarez
+12232423,Xavier,Yanza
+93282383,Richard,Carapaz
+13312132,Lisseth,Ortega
+12134212,John,Suquilanda
+32423321,Cesar,Pesantez
